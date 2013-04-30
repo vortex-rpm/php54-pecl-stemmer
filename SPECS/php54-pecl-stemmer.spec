@@ -46,7 +46,7 @@ It has a much simpler API than the stem extension found in pecl.
 
 %build
 pwd
-ls -l config.m4
+ls -laR
 phpize
 %configure
 %{__make} -C libstemmer_c
