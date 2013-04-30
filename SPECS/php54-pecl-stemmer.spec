@@ -45,7 +45,6 @@ It has a much simpler API than the stem extension found in pecl.
 
 
 %build
-cd %{pecl_name}-%{version}
 phpize
 %configure
 %{__make} -C libstemmer_c
@@ -53,7 +52,6 @@ phpize
 
 
 %install
-cd %{pecl_name}-%{version}
 %{__rm} -rf %{buildroot}
 %{__make} install INSTALL_ROOT=%{buildroot}
 
