@@ -20,7 +20,7 @@ Group: Development/Languages
 Vendor: Vortex RPM
 URL: https://github.com/hthetiot/php-%{real_name}
 
-Source: %{real_name}-%{commit}.tgz
+Source: %{real_name}-%{commit}.tar.gz
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires: %{php_base}-devel, %{php_base}-cli, %{php_base}-pear
