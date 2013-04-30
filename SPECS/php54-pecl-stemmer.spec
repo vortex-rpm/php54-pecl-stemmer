@@ -87,7 +87,7 @@ fi
 
 %files
 %defattr(-, root, root, -)
-%doc %{pecl_name}-%{version}/README.md %{pecl_name}-%{version}/License
+%doc php-%{real_name}-master/README.md php-%{real_name}-master/License
 %config(noreplace) %{_sysconfdir}/php.d/%{pecl_name}.ini
 %{php_extdir}/%{pecl_name}.so
 %{pecl_xmldir}/%{pecl_name}.xml
